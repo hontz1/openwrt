@@ -332,6 +332,13 @@
 +		.has_phy = 1,
 +		.use_internal_phy = 1,
 +	},
++
++	.use_fallback_sprom 		= 1,
++	.fallback_sprom = {
++		.type = SPROM_BCM4322,
++		.pci_bus 		= 0,
++ 		.pci_dev 		= 1,
++	},
 +};
  #endif /* CONFIG_BCM63XX_CPU_6358 */
  
