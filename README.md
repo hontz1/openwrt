@@ -3,19 +3,19 @@
 
 1. edit + add /etc/rc.local
 
-    sleep 10
-    wifi down
-    sleep
-    wifi up
+        sleep 10
+        wifi down
+        sleep
+        wifi up
    
 2. edit + add to the end /etc/config/wireless
 
-    config wifi-iface 'wifinet1'
-        option device 'wl0'
-        option mode 'ap'
-        option ssid 'TrickToFixNasParams'
-        option encryption 'none'
-        option disabled '1'     
+        config wifi-iface 'wifinet1'
+            option device 'wl0'
+            option mode 'ap'
+            option ssid 'TrickToFixNasParams'
+            option encryption 'none'
+            option disabled '1'     
         
         
  2. edit + add to /etc/config/wireless    
