@@ -20,7 +20,7 @@
         
  2. edit + add to /etc/config/wireless    , otherwhise the used mac makes the wifi instable.
  
-        option macaddr '00:....:38'    ---> use the wlan_mac one from the sticker of your w303v
+        option macaddr '00:A2:....:38'    ---> use the wlan_mac one from the sticker of your w303v B
         
         (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -)
         
@@ -29,4 +29,4 @@
 # openwrt 19.08
 ------------------
 
-works out of the box, but has older brcm-wl driver, i think 21.02 has more rangewide.
+works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage because of mimo support.
