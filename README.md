@@ -25,7 +25,7 @@ for use with proprietary driver brcm-wl (the only working wifi-n driver for this
  
         option macaddr '00:A2:....:38'    ---> use the wlan_mac one from the sticker of your w303v B
         
-        (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -  + select a fixed option channel [1-11])
+        (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -  + select a fixed - option channel [1-11] -  )
         
 
 
