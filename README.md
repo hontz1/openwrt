@@ -36,7 +36,4 @@ same/ see 21.02 trunk, but you can install additional packages from the feed.
 # openwrt 19.08
 ------------------
 
-works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage because of mimo support.
-
-# openwrt 21.02-0 RC4
-------------------
+works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage/stability because of mimo support.
