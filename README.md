@@ -8,7 +8,7 @@ for use with proprietary driver brcm-wl (the only working wifi-n driver for this
 
         sleep 10
         wifi down
-        sleep
+        sleep 10
         wifi up
    
 2. edit + add one disabled wifi-interface to the end /etc/config/wireless , otherwhise buggy 2nd ap will be created.
