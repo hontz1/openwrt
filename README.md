@@ -33,6 +33,11 @@ for use with proprietary driver brcm-wl (the only working wifi-n driver for this
 
 same/ see 21.02 trunk, but you can install additional packages from the feed.
 
+# openwrt 21.02-0 RC4 incl. LUCI
+------------------
+
+same/ see 21.02 trunk, but you can install additional packages from the feed.
+
 # openwrt 19.08
 ------------------
 
