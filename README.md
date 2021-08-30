@@ -2,7 +2,7 @@ pull request 09.aug.2021 see https://github.com/openwrt/openwrt/pull/4433
 
 # openwrt 21.02 build TRUNK 06. Aug 2021
 ---------------
-for use with proprietary driver brcm-wl (the only working wifi-n driver for this device) you have to aditional edit some files
+ssh over wireless broken, use lan, or take luci. for use with proprietary driver brcm-wl (the only working wifi-n driver for this device) you have to aditional edit some files
 
 1. edit + add /etc/rc.local    , bring up wifi, during boot failed
 
