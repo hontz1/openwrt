@@ -39,7 +39,7 @@ same/ see 21.02 trunk, but you can install additional packages from the feed.
 ------------------
 
 same/ see 21.02 trunk, but you can install additional packages from the feed and incl. minimal luci.
-luci also over wireless broken, use lan. maybe my build config (strip options were bad).
+luci also over wireless broken, use lan. maybe my build config were bad.
 
 # openwrt 19.08
 ------------------
