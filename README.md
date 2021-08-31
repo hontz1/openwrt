@@ -1,5 +1,7 @@
 pull request 09.aug.2021 see https://github.com/openwrt/openwrt/pull/4433
 
+Note: only pure Ap mode or pure sta mode work good. both together as a repeater have errors and less strength.
+
 # openwrt 21.02 build TRUNK 06. Aug 2021
 ---------------
 ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the only working wifi-n driver for this device) you have to aditional edit some files
