@@ -8,9 +8,6 @@ ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the 
 
 1. edit + add /etc/rc.local    , bring up wifi, during boot failed
 
-        sleep 10
-        wifi down
-        sleep 10
         wifi up
    
 2. edit + add one disabled wifi-interface to the end /etc/config/wireless , otherwhise buggy 2nd ap will be created.
@@ -39,7 +36,7 @@ same/ see 21.02 trunk, but you can install additional packages from the feed.
 ------------------
 
 same/ see 21.02 trunk, but you can install additional packages from the feed and incl. minimal luci.
-luci also over wireless broken, use lan. maybe my build config were bad.
+luci also over wireless broken, use lan. Luci makes some performance loss in wireless too. maybe my build config were bad.
 
 # openwrt 19.08
 ------------------
