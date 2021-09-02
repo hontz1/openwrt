@@ -22,7 +22,7 @@ ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the 
         
  2. edit + add to wifi-device section in /etc/config/wireless    , otherwhise the used mac makes the wifi instable.
  
-        option macaddr '00:A2:....:38'    ---> use the wlan_mac one from the sticker of your w303v B
+        option macaddr '00:A2:....:38'    ---> use the wlan_mac one from the sticker of your w303v B in device section.
         
         (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -  + select a fixed - option channel [1-11] -  )
         
@@ -36,7 +36,7 @@ same/ see 21.02 trunk, but you can install additional packages from the feed.
 ------------------
 
 same/ see 21.02 trunk, but you can install additional packages from the feed and incl. minimal luci.
-luci also over wireless broken, use lan. Luci makes some performance loss in wireless too. maybe my build config were bad.
+luci also over wireless broken, only via lan. Luci makes some performance loss in wireless too. maybe my build config were bad.
 
 # openwrt 19.08
 ------------------
