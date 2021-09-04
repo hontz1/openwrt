@@ -1,6 +1,7 @@
 pull request 09.aug.2021 see https://github.com/openwrt/openwrt/pull/4433
 
 Note: only pure Ap mode or pure sta mode work good. both together as a repeater have errors and less strength.
+update: 20.02.0RC4 https feed install is broken in my builds, only manually download and scp to the box & opkg install will work from the feeds. missing ssl.
 
 # openwrt 21.02 build TRUNK 06. Aug 2021
 ---------------
