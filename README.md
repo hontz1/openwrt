@@ -27,7 +27,7 @@ ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the 
  of your w303v B in device section.       
  sticker('00:A2:...:39' --> use '00:A2:...:38')
         
-        (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -  + select a fixed - option channel [1-11] -  )
+ (maybe disable - option wmm 0 - will improve stability -  + also try  - option htmode 'ht40' -  + select a fixed - option channel [1-11] -  )
  
  4. optional - edit + add /lib/wifi/broadcom.sh try some settings e.g. wmm, htmode, and hwmode manually because of lack in the driver. (makes the device more stable)
 
