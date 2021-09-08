@@ -56,5 +56,12 @@ luci also over wireless broken, only via lan. Luci makes some performance loss i
 
 works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage/stability because of mimo support.
 
+# openwrt1 21.02-0 RC4 incl. LUCI
+
+
+same/ see 21.02 trunk, but you can install additional packages from the feed and incl. minimal luci.
+luci also over wireless broken, only via lan. Luci makes some performance loss in wireless too. maybe my build config were bad.
+some additional wl, iwinfo packages, for better manipulating wifi.
+
 # Note
 use precompiled images, such as mine only for testing, build always your own.
