@@ -56,5 +56,5 @@ luci also over wireless broken, only via lan. Luci makes some performance loss i
 
 works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage/stability because of mimo support.
 
-
+# Note
 use precompiled images, such as mine only for testing, build always your own.
