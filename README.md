@@ -4,7 +4,7 @@ Note: only pure Ap mode or pure sta mode work good. both together as a repeater 
 update: 20.02.0RC4 https feed install is broken in my builds, only manually download and scp to the box & opkg install will work from the feeds. missing ssl.
 
 # openwrt 21.02 build TRUNK 06. Aug 2021
----------------
+
 ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the only working wifi-n driver for this device) you have to aditional edit some files
 
 1. edit + add /etc/rc.local    , bring up wifi, during boot failed
@@ -41,18 +41,18 @@ ssh over wireless broken, use lan. for use with proprietary driver brcm-wl (the 
         
 
 # openwrt 21.02-0 RC4
-------------------
+
 
 same/ see 21.02 trunk, but you can install additional packages from the feed.
 
 # openwrt 21.02-0 RC4 incl. LUCI
-------------------
+
 
 same/ see 21.02 trunk, but you can install additional packages from the feed and incl. minimal luci.
 luci also over wireless broken, only via lan. Luci makes some performance loss in wireless too. maybe my build config were bad.
 
 # openwrt 19.08
-------------------
+
 
 works out of the box, but has older brcm-wl driver, i think/realized 21.02 has more rangewide/coverage/stability because of mimo support.
 
