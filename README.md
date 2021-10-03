@@ -1,4 +1,5 @@
 pull request 09.aug.2021 see https://github.com/openwrt/openwrt/pull/4433
+
 pull did not pass on 03.okt.2021 
 
 Note: only pure Ap mode or pure sta mode work good. both together as a repeater have errors and less strength.
